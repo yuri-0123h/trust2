@@ -7,12 +7,15 @@
   /* border: 1px solid red; */
 }
 
+
 .title{
   font-size: 32px;
   border-bottom: 2px solid #792DDC;
   padding-left: 0;
   padding-top: 80px;
   padding-bottom: 15px;
+  font-weight: bold;
+  display: block;
 }
 .section-title p{
   font-size: 14px;
@@ -68,6 +71,19 @@
   display: table;
   border-radius: 7px;
   background-color:#792DDC;
+  position: relative;
+}
+.contact-menu li img{
+  position: absolute;
+  width: 20px;
+  /* height: 20px; */
+  z-index: 10;
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 50%;
+  right: 15px;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 .contact-menu li a{
   text-decoration: none;
